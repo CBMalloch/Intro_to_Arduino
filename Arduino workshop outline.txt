@@ -1,0 +1,49 @@
+http://www.jodyculkin.com/comics-2/introduction-to-arduino
+http://blog.makezine.com/archive/2011/09/the-new-music-box-joe-sooch-video.html
+
+Learning Objectives
+	How can I observe stuff with an Arduino?
+	How can I control stuff with an Arduino?
+	
+observe - compute - control - repeat forever
+
+Observe - like what?
+	Voltages, ultimately. Examples: temperature, pressure, flow rates, signal strength, elapsed time.
+	Sensors: switches, potentiometers, I2C, RTCs, 
+Compute - like what?
+	EU conversion, FFT, PID, fuzzy logic, finite state automata
+Control - like what?
+	Voltages, ultimately. Specifically on-off and PWM.
+	Actuators: motors (stepper, DC, servo), amplifiers (mechanical relays, SSR, H-bridge), heating elements
+
+What is a microcontroller?
+	A microcomputer (microprocessor and memory) combined with input/output circuitry and timers
+	Look inside your car; your dishwasher, your microwave, your cell phone, your little brother's toys, …
+	
+Introduction to Atmel AVR chip
+Introduction to Arduino
+	Open-source hardware and software "Wiring" (also Google "Processing") which provides a simple environment for using the AVR chip
+	Wiring language is halfway between C and C++
+
+Programming the Arduino
+	Open Arduino
+	Program blink (use examples)
+	Load program
+	It starts running automatically
+	
+Observe something
+	Hello world pot
+	
+Control something
+	LED brightness via pot
+	monitor with Serial.print commands
+	
+Things to bring in:
+	Old Macintoshes, including USB cables
+	stickers for TTL-232 cables
+	
+Things to do:
+	
+Tickler (sent):
+
+Learn how to use simple and inexpensive microcontrollers to sense and control aspects of the real world! You will be introduced to the Arduino environment, which comprises a c++ -like programming language, the microprocessor, and the means to communicate with it and send it programs. The basics include running a simple program to flash an LED, reading the position of a variable resistor, and controlling the LED's brightness using analog output.
